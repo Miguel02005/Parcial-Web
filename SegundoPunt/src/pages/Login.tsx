@@ -5,11 +5,18 @@ function App() {
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
 
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+    console.log("Username:", username);
+    console.log("Password:", password);
+    console.log("Remember Me:", rememberMe);
+  };
+
   return (
     <div className="container">
       <div className="circle-bg" />
       <div className="avatar" />
-      <form className="form">
+      <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Username"
