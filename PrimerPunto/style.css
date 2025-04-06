@@ -54,8 +54,8 @@
 
     .box1, .box2, .box3 {
         background-color: #ffbb7c;
-        width: 120px;
-        height: 50px;
+        width: 115px;
+        height: 55px;
         position: absolute;
       }
       
@@ -105,8 +105,8 @@
 
     .box4, .box5, .box6 {
     background-color: #ff7db9;
-    width: 15%;
-    height: 30px;
+    width: 16%;
+    height: 38px;
     display: flex;
     justify-content: space-between;
     align-items: space-between;
